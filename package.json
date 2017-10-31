@@ -1,0 +1,26 @@
+{
+  "author": "fish <zhengxinlin@gmail.com> (https://github.com/fishbar)",
+  "name": "cube-glsl",
+  "description": "the glsl processor for cube",
+  "version": "0.0.2",
+  "homepage": "https://github.com/node-cube/cube-glsl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-cube/cube-glsl"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --coverage 70,80,95 -R spec test"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "glslify": "6.1.0"
+  },
+  "devDependencies": {
+    "mocha": "1.20.1"
+  },
+  "license": "MIT",
+  "optionalDependencies": {}
+}
